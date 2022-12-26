@@ -1,0 +1,32 @@
+.About_cont{
+    display: flex;
+}
+
+.About_img{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+
+.about_title{
+    font-family: 'NEXT ART';
+    width: 447px;
+height: 136px;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 82px;
+display: flex;
+align-items: center;
+}
+/* .nik{
+    box-sizing: border-box;
+
+position: absolute;
+width: 356px;
+height: 356px;
+
+border-radius: 750px;
+border: 34px solid #E2A200;
+filter: drop-shadow(0px 4px 70px rgba(226, 162, 0, 0.25));
+} */

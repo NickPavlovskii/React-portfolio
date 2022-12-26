@@ -1,0 +1,63 @@
+.container{
+    width: 768px;
+    
+    margin: 0 auto;
+    }
+
+
+    
+
+.nav_list{
+    display: flex;
+    
+}
+
+.nav{
+    display: flex;
+    padding-top: 25px;
+}
+.nav_logo{
+    margin-right: 350px;
+}
+.nav_link{
+    margin: 0 25px;
+   
+    color: rgb(0, 0, 0);
+}
+ .acctive{
+    
+   
+    color: rgb(139, 2, 180);
+}
+
+
+.nav_link:hover{
+   
+    color: rgb(139, 2, 180);
+}
+/* 
+======================================================================================
+ */
+
+
+.About_cont{
+    display: flex;
+}
+
+.About_img{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+
+.about_title{
+    font-family: 'NEXT ART';
+    width: 447px;
+height: 136px;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 82px;
+display: flex;
+align-items: center;
+}
