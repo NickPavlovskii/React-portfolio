@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+:root {
+
+    --header-height: 3rem;
+
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.about_button{
+    display: inline-block;
+   background-color: blueviolet;
+   color: white;
+   padding: 15px ;
+   border-radius: 1rem;
+   margin-top: 25px;
+   font-family: 'Poppins', sans-serif;
+}
+.about_info{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+  width: 447px;
+  
+}
 .container{
     width: 768px;
     
@@ -9,7 +36,7 @@
 
 .nav_list{
     display: flex;
-    
+    width: 300px;
 }
 
 .nav{
@@ -51,13 +78,22 @@
 
 
 .about_title{
-    font-family: 'NEXT ART';
+    font-family: 'Poppins', sans-serif;
     width: 447px;
-height: 136px;
-font-style: normal;
+
+
 font-weight: 700;
 font-size: 72px;
 line-height: 82px;
 display: flex;
 align-items: center;
+}
+
+.About_text{
+    margin-top: 190px;
+}
+
+.front{
+    font-family: 'Poppins', sans-serif;
+    color:gray
 }

@@ -1,0 +1,134 @@
+.About_cont{
+    display: flex;
+}
+
+.About_img{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.about{
+    text-align: center
+}
+
+.about_title{
+    font-family: 'NEXT ART';
+    width: 447px;
+height: 136px;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 82px;
+display: flex;
+align-items: center;
+}
+
+.About_cont{
+    display: flex;
+}
+
+.About_img{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+
+.about_title{
+    font-family: 'Poppins', sans-serif;
+   height: 75px;
+
+
+font-weight: 700;
+font-size: 72px;
+line-height: 82px;
+display: flex;
+align-items: center;
+}
+
+.About_text{
+    margin-top: 220px;
+   
+}
+
+.front{
+    font-family: 'Poppins', sans-serif;
+    color:gray;
+    width: 330px;
+    
+    
+}
+
+
+
+.about_button{
+    display: inline-block;
+  
+   color: white;
+   padding: 15px ;
+  
+   margin-top: 25px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 968px;
+   
+    margin: 0 auto;
+    }
+
+    .BiPaperPlane{
+
+margin: 0px 5px ;
+    }
+
+    .bott{
+        display: flex;
+    }
+
+    .header__socials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        position:absolute;
+        left: 0px;
+      top: 30rem;
+    }
+
+    .header__socials::after{
+        content: '';
+        width: 1px;
+        height: 2rem;
+        background: var(--color--primary);
+    }
+
+    .ai{
+        width: 105px;
+        height: 20px;
+    }
+
+    .Bi{
+       position: relative;
+       top: 2px;
+       left: 2px;
+    }
+
+    
+@media screen and (max-width:600px) {
+    .header{
+      width: 100vh;
+    }
+  
+  .header__socials{
+    display: none;
+  }
+  
+
+    
+  }
+  
+  @media screen and (max-width:1024px) {
+    .header{
+        width: 68vh;
+      }
+    
+  }
