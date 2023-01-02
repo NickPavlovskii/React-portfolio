@@ -18,18 +18,18 @@ const portfolio = () => {
       <article className='portfolio_item' data-content id='skill'>
         <div className="portfolio_item_img"><img src={demo1} alt="" /></div>
         <h3>React commerce Website</h3>
-        <div className='bt'>
+        
         <a href="https://github.com/NickPavlovskii/webDemo" target='_blank' className='btn about_button bt'>gitHub</a>
-        </div>
+       
         {/* <a href="http://127.0.0.1:5500/my-react-app/my-app/src/Section/portfolio/webDemo/index.html" target='_blank' className='btn btn-primary'>Demo</a> */}
       </article>
       <article className='portfolio_item' data-content id='skill'>
         <div className="portfolio_item_img"><img src={demo2} alt="" /></div>
         <h3>js food</h3>
-        <div className='bt'>
+        
         <a href="https://github.com/NickPavlovskii/web_js_only" target='_blank' className='btn about_button '>gitHub</a>
         
-        </div>
+        
         {/* <a href="http://127.0.0.1:5555/my-react-app/my-app/Demo/marathon_js7/index.html" target='_blank' className='btn btn-primary'>Demo</a> */}
       </article>
       <article className='portfolio_item'>
@@ -40,7 +40,7 @@ const portfolio = () => {
       </article>
 
     
-      <article className='portfolio_item'>
+      <article className='pr'>
         <div className="portfolio_item_img"><img src={demo1} alt="" />
         <div className='bt'>
           <h3>This is a portfolio item title</h3>
