@@ -22,7 +22,7 @@ const AboutMe = () => {
         <Info className='inf'/>
        
         <p>some info about me</p>
-        <a className='btn about_button'> Let's Talk <BiPaperPlane className='Bi'/>  </a> 
+        <a className='btn about_button' href='https://t.me/N1klad'> Let's Talk <BiPaperPlane className='Bi'/>  </a> 
         </div>    
         </div>
         

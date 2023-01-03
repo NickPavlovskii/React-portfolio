@@ -116,33 +116,8 @@
     color: var(--color-light);
    }
 
-   @media screen and (max-width:600px) {
-    .about_container{
-        
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-    .about_me{
-        width: 45%;
-        margin: 2rem auto 4rem;
-    }
 
-    .aboutSection{
-        margin-top: 250px;
-        height: 1050px;
-    }
-
-    .info{
-        
-        position: relative;
-        left: 150px;
-    }
-
-
-
-  }
-  
-  @media screen and (max-width:1024px) {
+   @media screen and (max-width:1024px) {
     .about_container{
         
         grid-template-columns: 1fr;
@@ -158,10 +133,28 @@
         height: 1050px;
     }
 
-    .info{
-        
-        position: relative;
-        left: 150px;
-    }
+   
 
   }
+   @media screen and (max-width:600px) {
+    .about_container{
+        
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about_me{
+        width: 25%;
+       
+    }
+
+    .aboutSection{
+        margin-top: 250px;
+        height: 1050px;
+    }
+
+   
+
+
+
+  }
+  

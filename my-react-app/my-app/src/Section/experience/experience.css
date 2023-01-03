@@ -43,6 +43,28 @@ color: var(--color--primary);
 }
 
 
+
+  @media screen and (max-width:1024px) {
+    
+#experience{
+    margin-bottom: 210px;
+}
+    .experience_container{
+        grid-template-columns: 1fr;
+       position: relative;
+       left: 150px;
+    }
+    
+.experience_container > div{
+    width: 60%;
+    padding: 2rem;
+}
+  }
+  #experience{
+   position: relative;
+   bottom: 150px;
+} 
+
 @media screen and (max-width:600px) {
     #experience{
         margin-bottom: 210px;
@@ -58,22 +80,3 @@ color: var(--color--primary);
     }
   }
   
-  @media screen and (max-width:1024px) {
-    
-#experience{
-    margin-bottom: 210px;
-}
-    .experience_container{
-        grid-template-columns: 1fr;
-      
-    }
-    
-.experience_container > div{
-    width: 60%;
-    padding: 2rem;
-}
-  }
-  #experience{
-   position: relative;
-   bottom: 150px;
-}
