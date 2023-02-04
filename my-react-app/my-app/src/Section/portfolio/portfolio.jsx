@@ -4,6 +4,8 @@ import demo1 from "./../../ass/img/demo1.PNG"
 import demo2 from "./../../ass/img/demo2.PNG"
 import demo3 from "./../../ass/img/demo3.jpg"
 import demo4 from "./../../ass/img/demo3.PNG"
+import demo5 from "./../../ass/img/demo5.PNG"
+
 // const tabs =Document.querySelectorAll("[data-content]"),
 //       tabContents=Document.querySelectorAll("[data-content]")
 const portfolio = () => {
@@ -55,11 +57,13 @@ const portfolio = () => {
         {/* <a href="http://my-react-app/my-app/src/Section/portfolio/webDemo/index.html" target='_blank' className='btn btn-primary'>Demo</a> */}
       </article>
       <article className='portfolio_item'>
-        <div className="portfolio_item_img"><img src={demo1} alt="" /></div>
+        <div className="portfolio_item_img"><img src={demo5} alt="" /></div>
         <h4 className='wb'>Web</h4>
-        <h3>This is a portfolio item title</h3>
-        <a href="https://github.com/NickPavlovskii/webDemo" target='_blank' className='btn about_button'>gitHub</a>
-        
+        <h3>Store React</h3>
+        <div className='flex'>
+        <a href="https://github.com/NickPavlovskii/store_react" target='_blank' className='btn about_button '>gitHub</a>
+        <a href="https://github.com/NickPavlovskii/store_demo" target='_blank' className='btn about_button demo'>demo</a>
+        </div>
       </article>
       <article className='portfolio_item'>
         <div className="portfolio_item_img"><img src={demo1} alt="" /></div>

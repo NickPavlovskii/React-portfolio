@@ -5,6 +5,7 @@
    
   
 }
+
 #portfolio{
     position: relative;
     bottom: 300px;
@@ -40,6 +41,18 @@
 }
 
 
+
+.flex .demo{
+    color:var(--color--primary);
+    background-color: white;
+    position: absolute;
+    left: 125px;
+}
+.flex .demo:hover{
+    color: white;
+    background-color:var(--color--primary);
+   
+}
 
 .wb{
     margin-top: 10px;
