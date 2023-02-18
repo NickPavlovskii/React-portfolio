@@ -9,8 +9,10 @@ import Portfolio from "./Section/portfolio/portfolio"
 import Contact from "./Section/contact/Contact"
 import Footer from "./Section/Footer/Footer"
 import AboutMe from "./Section/AboutMe/AboutMe"
-
+import Project from './Section/portfolio/Projects';
 function App() {
+
+  const {projectItems}  = Project;
   return (
    <section>
 
@@ -21,7 +23,7 @@ function App() {
       <AboutMe/>
       <Experience/>
       
-      <Portfolio/>
+      <Portfolio projectItems ={projectItems}/>
       <Contact/>
       <Footer/>
      
