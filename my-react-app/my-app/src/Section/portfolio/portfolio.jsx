@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState} from 'react'
 import './portfolio.css'
 import Project from './Projects'
 
@@ -6,11 +6,28 @@ import Project from './Projects'
 // const tabs =Document.querySelectorAll("[data-content]"),
 //       tabContents=Document.querySelectorAll("[data-content]")
 
+import { motion } from "framer-motion"
 
-const portfolio = () => {
-  const {projectItems}  = Project;
+const variants = {
+  open: { opacity: 1, x: 0 },
+  closed: { opacity: 0, x: "-100%" },
+}
+
+function  portfolio() {
+ 
+  const {projectItems}  = Project
+  
   return (
+  
+
+    <>
+
+
+      
     <section id='portfolio'>
+      
+      
+     
     <h5>
       My Recent Work
     </h5>
@@ -34,10 +51,14 @@ const portfolio = () => {
      
       )
         })}
-      
+        
+       
+
+    
       </div>
     
     </section>
+    </>
   )
 }
 

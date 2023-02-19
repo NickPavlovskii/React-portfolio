@@ -1,9 +1,8 @@
-  
-  #Contact{
-   position: relative;
-   bottom: 130px;
+#Contact{
+   height: 600px;
    
-  }
+   }
+  
   .Contact_container{
     width: 58%;
     display: grid;

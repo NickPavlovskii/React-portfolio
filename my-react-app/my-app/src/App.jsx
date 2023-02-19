@@ -10,6 +10,13 @@ import Contact from "./Section/contact/Contact"
 import Footer from "./Section/Footer/Footer"
 import AboutMe from "./Section/AboutMe/AboutMe"
 import Project from './Section/portfolio/Projects';
+
+
+
+
+import React, { useState } from "react";
+
+
 function App() {
 
   const {projectItems}  = Project;

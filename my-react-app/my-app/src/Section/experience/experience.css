@@ -46,9 +46,7 @@ color: var(--color--primary);
 
   @media screen and (max-width:1024px) {
     
-#experience{
-    margin-bottom: 210px;
-}
+
     .experience_container{
         grid-template-columns: 1fr;
        position: relative;
@@ -61,8 +59,8 @@ color: var(--color--primary);
 }
   }
   #experience{
-   position: relative;
-   bottom: 150px;
+   height: 600px;
+  
 } 
 
 @media screen and (max-width:600px) {

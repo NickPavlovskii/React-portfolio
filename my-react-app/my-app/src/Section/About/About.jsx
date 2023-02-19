@@ -1,6 +1,7 @@
 import React from 'react'
 import img2 from './../../ass/img/me.png'
 import './About.css'
+import { motion } from "framer-motion";
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 const About = () => {
@@ -18,7 +19,16 @@ const About = () => {
     </div>
 
       <div className='About_img'>
-         <img src={img2} alt="" />
+      <motion.div
+    className="container"
+    initial={{ scale: 0 }}
+    animate={{ rotate: 360, scale: 1 }}
+    transition={{
+      type: "spring",
+      stiffness: 150,
+      damping: 20
+    }} >    <img src={img2} alt="" /></motion.div>
+     
          </div>
          </div>
          

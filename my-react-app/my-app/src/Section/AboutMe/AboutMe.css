@@ -1,5 +1,12 @@
+.aboutSection{
+  height: 600px;
 
 
+}
+
+.info h1{
+  font-size: 1.6rem;
+}
 .about_button{
     display: inline-block;
   
