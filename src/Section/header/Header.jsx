@@ -6,7 +6,7 @@ const Header = () => {
   const [activeNav, setActiveNav]= useState('#')
   return (
     <div className='header' id='header'>
-   <div className='nav container'>
+   <div className='header_nav container'>
     <a href="" className="nav_logo">Niklad</a>
     <div className="nav_menu" id="nav-menu">
         <ul className="nav_list">

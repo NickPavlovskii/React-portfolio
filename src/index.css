@@ -67,9 +67,6 @@ body{
   color: var(--color-bg)
 }
 
-section{
-  height: 80vh;
-}
 section > h2, section >h5{
   text-align: center ;
 

@@ -1,0 +1,62 @@
+{
+    "projectItems": [
+      {
+        "id": 1,
+        "img": "./ass/img/demo1.PNG",
+        "name": "E-Commerce Website",
+        "framework": "React",
+        "gitHub": "https://github.com/NickPavlovskii/react_web",
+        "Demo": ""
+      },
+      {
+        "id": 2,
+        "img": "./ass/img/demo2.PNG",
+        "name": "food",
+        "framework": "HTML/CSS/JS",
+        "gitHub": "https://github.com/NickPavlovskii/web_js_only",
+        "Demo": ""
+      },
+      {
+        "id": 3,
+        "img": "./ass/img/demo3.PNG",
+        "name": "Car website",
+        "framework": "HTML/CSS/JS",
+        "gitHub": "https://github.com/NickPavlovskii/car",
+        "Demo": ""
+      },
+      {
+        "id": 4,
+        "img": "./ass/img/demo5.PNG",
+        "name": "E-Commerce Website",
+        "framework": "React",
+        "gitHub": "https://github.com/NickPavlovskii/store_react",
+        "Demo": ""
+      },
+      {
+        "id": 5,
+        "img": "./ass/img/demo4.PNG",
+        "name": "Cafe Bill Splitter",
+        "framework": "Vue",
+        "gitHub": "https://github.com/NickPavlovskii/sber",
+        "Demo": "https://main--regal-smakager-265371.netlify.app/"
+      },
+      {
+        "id": 6,
+        "img": "./ass/img/demo6.PNG",
+        "name": "Smart Home(HTML/CSS/js)",
+        "framework": "HTML/CSS/JS",
+        "gitHub": "https://github.com/NickPavlovskii/SmartHome",
+        "Demo": ""
+      },
+      {
+        "id": 7,
+        "img": "./ass/img/demo7.PNG",
+        "name": "KinOx",
+        "framework": "Vue",
+        "gitHub": "https://github.com/NickPavlovskii/KinOx/tree/Main",
+        "Demo": "https://singular-scone-582df2.netlify.app/"
+      }
+
+    ]
+  }
+  
