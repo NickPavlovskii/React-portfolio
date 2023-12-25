@@ -10,11 +10,12 @@
       },
       {
         "id": 2,
-        "img": "./ass/img/demo2.PNG",
-        "name": "food",
-        "framework": "HTML/CSS/JS",
-        "gitHub": "https://github.com/NickPavlovskii/web_js_only",
-        "Demo": ""
+        "img": "./ass/img/demo7.PNG",
+        "name": "KinOx",
+        "framework": "Vue",
+        "gitHub": "https://github.com/NickPavlovskii/KinOx/tree/Main",
+        "Demo": "https://singular-scone-582df2.netlify.app/"
+       
       },
       {
         "id": 3,
@@ -50,11 +51,11 @@
       },
       {
         "id": 7,
-        "img": "./ass/img/demo7.PNG",
-        "name": "KinOx",
-        "framework": "Vue",
-        "gitHub": "https://github.com/NickPavlovskii/KinOx/tree/Main",
-        "Demo": "https://singular-scone-582df2.netlify.app/"
+        "img": "./ass/img/demo2.PNG",
+        "name": "food",
+        "framework": "HTML/CSS/JS",
+        "gitHub": "https://github.com/NickPavlovskii/web_js_only",
+        "Demo": ""
       }
 
     ]

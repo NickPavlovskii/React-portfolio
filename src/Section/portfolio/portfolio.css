@@ -10,6 +10,8 @@
 .Card_img{
     height: 130px ;
     width: 100%;
+    border-top-left-radius: 11px; 
+    border-top-right-radius: 11px;
 }
 
 
