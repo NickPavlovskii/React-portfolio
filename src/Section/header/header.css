@@ -1,10 +1,6 @@
-
-
 .nav_list{
     display: flex;
-    
 }
-
 .header_nav{
     display: flex;
     padding-top: 25px;
@@ -14,17 +10,11 @@
 }
 .nav_link{
     margin: 0 25px;
-   
     color: rgb(0, 0, 0);
 }
  .acctive{
-    
-   
     color: rgb(139, 2, 180);
 }
-
-
 .nav_link:hover{
-   
     color: rgb(139, 2, 180);
 }

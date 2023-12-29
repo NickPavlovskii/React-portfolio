@@ -14,8 +14,6 @@
     backdrop-filter: blur(15px);
 }
 
-
-
 .AiOutlineMenu{
     position: relative;
     bottom: 20px;
@@ -29,7 +27,6 @@
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-   
     font-size: 1.1rem;
 }
 nav a:hover{
@@ -38,14 +35,12 @@ nav a:hover{
 }
 
 nav a.active{
-
     background: rgba(157, 0, 248, 0.5);
     color: var(--color-white) ;
 }
-
-  .a{
-        width: 30px;
-        height: 20px;
+.a{
+    width: 30px;
+     height: 20px;
     }
 
 

@@ -20,11 +20,11 @@ function Portfolio() {
 
   const handleChange = (_, newValue) => {
     setSelectedTabIndex(newValue);
-    setCurrentPage(1); // Reset to the first page when changing tabs
+    setCurrentPage(1);
   };
 
   useEffect(() => {
-    setCurrentPage(1); // Reset to the first page when changing tabs
+    setCurrentPage(1); 
   }, [selectedTabIndex]);
 
   const filteredProjects = projectItems.filter((project) => {
@@ -81,7 +81,7 @@ function Portfolio() {
                     <img src={project.img} alt="" className="Card_img" />
                   </div>
                   <h2 className="wb">{project.name}</h2>
-                  <h4>{project.framework}</h4>
+                  <h4 style={{ color: 'var(--color-light)' }}>{project.framework}</h4>
                 </CardContent>
                 <CardActions>
                   <Button

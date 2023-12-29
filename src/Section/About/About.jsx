@@ -16,15 +16,13 @@ const About = () => {
         </div>
         <div className='About_img'>
           <motion.div
-            className="container"
             initial={{ scale: 0 }}
             animate={{ rotate: 360, scale: 1 }}
             transition={{
               type: "spring",
               stiffness: 150,
               damping: 20
-            }} >    <img src={img2} alt="" /></motion.div>
-
+            }}><img src={img2} alt=""/></motion.div>
         </div>
       </div>
 
