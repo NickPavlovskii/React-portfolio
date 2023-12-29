@@ -71,7 +71,6 @@ function Portfolio() {
             <Tab label="Vue" />
           </Tabs>
         </Paper>
-
         <div>
           <div className="container portfolio_container">
             {currentProjects.map((project) => (
