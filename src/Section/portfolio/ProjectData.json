@@ -2,12 +2,13 @@
     "projectItems": [
       {
         "id": 1,
-        "img": "./ass/img/demo1.PNG",
-        "name": "E-Commerce Website",
-        "framework": "React",
-        "gitHub": "https://github.com/NickPavlovskii/react_web",
-        "Demo": ""
+        "img": "./ass/img/gis.PNG",
+        "name": "Gis",
+        "framework": "HTML/CSS/JS",
+        "gitHub": "https://github.com/NickPavlovskii/Gis",
+        "Demo": "http://serv.sae.ru/"
       },
+
       {
         "id": 2,
         "img": "./ass/img/demo7.PNG",
@@ -27,10 +28,10 @@
       },
       {
         "id": 4,
-        "img": "./ass/img/demo5.PNG",
+        "img": "./ass/img/demo1.PNG",
         "name": "E-Commerce Website",
         "framework": "React",
-        "gitHub": "https://github.com/NickPavlovskii/store_react",
+        "gitHub": "https://github.com/NickPavlovskii/react_web",
         "Demo": ""
       },
       {
@@ -44,7 +45,7 @@
       {
         "id": 6,
         "img": "./ass/img/demo6.PNG",
-        "name": "Smart Home(HTML/CSS/js)",
+        "name": "Smart Home",
         "framework": "HTML/CSS/JS",
         "gitHub": "https://github.com/NickPavlovskii/SmartHome",
         "Demo": ""
@@ -55,6 +56,14 @@
         "name": "food",
         "framework": "HTML/CSS/JS",
         "gitHub": "https://github.com/NickPavlovskii/web_js_only",
+        "Demo": ""
+      },
+      {
+        "id": 8,
+        "img": "./ass/img/demo5.PNG",
+        "name": "E-Commerce Website",
+        "framework": "React",
+        "gitHub": "https://github.com/NickPavlovskii/store_react",
         "Demo": ""
       }
 

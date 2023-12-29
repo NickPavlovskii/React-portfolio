@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../ass/certificate.pdf'
+import CV from '../../ass/CV.pdf'
 import {BiPaperPlane} from 'react-icons/bi';
 const CTA = () => {
   return (
