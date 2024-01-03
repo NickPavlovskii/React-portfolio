@@ -1,10 +1,14 @@
 #Contact{
-   height: 600px;
-   
+    text-align: center;
+    padding: 50px 0; /* Добавим немного отступа сверху и снизу для красоты */
+ 
+    box-sizing: border-box;
+    margin: 0 auto;
    }
   
   .Contact_container{
-    width: 58%;
+
+    width: 100%;
     display: grid;
     grid-template-columns: 30% 50%;
     gap: 12%;
@@ -75,12 +79,17 @@ input, textarea{
     
     @media screen and (max-width:600px) {
         .Contact_container{
-            width: var(--container-width-sm);
-            
+        
+            padding: 50px 30px;
+            margin: 0 auto;
         }
 
         #Contact{
-            top: 890px;
+            width: 900px;
+            text-align: center;
+            padding: 50px 0; /* Добавим немного отступа сверху и снизу для красоты */
+          
+            box-sizing: border-box;
            }
       }
       
