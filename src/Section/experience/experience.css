@@ -1,9 +1,13 @@
 .experience_container {
-    
+
     color: var(--color--primary);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+}
+
+.experience_block {
+    margin-left: 220px;
 }
 
 .experience_container>div {
@@ -29,7 +33,7 @@
 }
 
 .experience_content {
-   
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
@@ -70,9 +74,11 @@
     #experience {
         margin-bottom: 210px;
     }
-    .experience_block{
+
+    .experience_block {
         margin-left: 220px;
     }
+
     .experience_container {
         grid-template-columns: 1fr;
 
