@@ -3,7 +3,7 @@ footer {
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    width: 968px;
+
     margin: 0 auto;
 }
 
@@ -76,6 +76,6 @@ footer a {
 
     footer {
         position: relative;
-
+        width: 968px;
     }
 }
