@@ -16,15 +16,19 @@
 }
 
 .about_container {
+  
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
   align-items: center;
   column-gap: 4rem;
+  
 }
 
 .about_info {
   display: flex;
+  justify-content: center;
+
 }
 
 .aboutMe_title {
@@ -122,6 +126,7 @@
 
 @media screen and (max-width:1024px) {
   .about_container {
+    justify-content: center;
 
     grid-template-columns: 1fr;
     gap: 0;

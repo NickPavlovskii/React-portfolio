@@ -86,10 +86,15 @@
 }
 
 .wb {
+
     margin-top: 10px;
     color: var();
 }
-
+.portfolio h5{
+    display: flex;
+ text-align: center;
+    justify-content: center;
+}
 @media screen and (max-width:1024px) {
 
     .portfolio_container {

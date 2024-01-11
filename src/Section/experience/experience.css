@@ -1,13 +1,14 @@
 .experience_container {
-
+    
     color: var(--color--primary);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(4,1fr);;
+    gap: 10rem;
+    margin: 100px 20px;
 }
 
 .experience_block {
-    margin-left: 220px;
+  
 }
 
 .experience_container>div {
@@ -49,11 +50,15 @@
 
 }
 
-
+.experience_details-icon{
+    width: 30px;
+}
 
 @media screen and (max-width:1024px) {
 
-
+    .experience_block {
+        margin-left: 220px;
+    }
     .experience_container {
         grid-template-columns: 1fr;
         position: relative;
@@ -66,9 +71,7 @@
     }
 }
 
-#experience {
-    width: 900px;
-}
+
 
 @media screen and (max-width:600px) {
     #experience {
