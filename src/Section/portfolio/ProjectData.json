@@ -1,6 +1,14 @@
 {
     "projectItems": [
       {
+        "id": 9,
+        "img": "./ass/img/demo7.PNG",
+        "name": "CarsVue(в процессе)",
+        "framework": "Vue",
+        "gitHub": "https://github.com/NickPavlovskii/CarVue",
+        "Demo": "https://melodic-moonbeam-e40ea6.netlify.app/"
+      },
+      {
         "id": 1,
         "img": "./ass/img/gis.PNG",
         "name": "Gis",
